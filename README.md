@@ -20,7 +20,7 @@ The goal was to transform raw data into a **clean, interactive dashboard** that 
 ---
 
 ## 📊 Dashboard Preview  
-![Dashboard](Screenshot.png)
+![Dashboard](Screenshot_dashboard.png)
 
 ---
 
