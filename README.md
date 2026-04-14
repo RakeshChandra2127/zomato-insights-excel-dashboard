@@ -1,142 +1,80 @@
-# 📊 Zomato Insights & Trends Dashboard  
-**Excel | Data Analysis | Data Visualization**  
-Created by **Rohan Nayak**
+# 📊 Zomato Restaurant Analytics Dashboard  
+**Excel | Data Analysis | Business Insights**
 
 ---
 
-## 🖼️ Main Dashboard Screenshot  
-> *(Replace the image below with your main dashboard image in GitHub)*
+## 🔍 Overview  
+This project analyzes Zomato restaurant data to uncover **market trends, customer behavior, and pricing patterns** using Excel.
 
-![Zomato Dashboard](Screenshot.png)
-
----
-
-## 📘 Project Overview  
-This project is a complete **end-to-end data analysis** of Zomato’s restaurant dataset.  
-The goal was to understand restaurant performance, customer preferences, cuisine availability, pricing trends, and delivery behavior using **Excel Pivot Tables, Charts, Slicers**, and a **professional dashboard layout**.
-
-This project converts raw restaurant data into **clear, visual insights** that help identify market trends, customer choices, and business opportunities.
+The goal was to transform raw data into a **clean, interactive dashboard** that supports data-driven decisions.
 
 ---
 
-## 🎯 Objective of the Project  
-- Analyze restaurant distribution across cities and localities  
-- Understand cuisine popularity and availability  
-- Explore price range and cost patterns  
-- Study customer ratings, reviews, and engagement  
-- Compare delivery vs non-delivery restaurant trends  
-- Create a clean, interactive Excel dashboard for insights  
+## 🎯 Key Objectives  
+- Analyze restaurant distribution across cities & localities  
+- Identify popular cuisines and demand patterns  
+- Study pricing trends and cost distribution  
+- Evaluate ratings, votes, and customer engagement  
+- Compare delivery vs non-delivery restaurant performance  
 
 ---
 
-## 🛠 Tools & Techniques Used  
-- **Microsoft Excel**  
-- Pivot Tables  
-- Pivot Charts  
-- Slicers (City, Cuisine, Delivery filters)  
-- Data Cleaning (removing duplicates, formatting, null handling)  
-- Dashboard Design (modern layout, color theme, KPI section)
+## 📊 Dashboard Preview  
+![Dashboard](Screenshot.png)
 
 ---
 
-# 🔍 Detailed Insights (What I Found)
+## 🧠 Key Insights  
 
-## 1️⃣ Restaurant Presence (Cities & Localities)
-- Major metro cities such as **New Delhi, Mumbai, Bangalore, Hyderabad, and Pune** have the **highest restaurant count**, showing Zomato's strong presence in urban markets.  
-- Smaller cities have fewer listings, revealing **growth opportunities** for Zomato.  
-- Localities like **Connaught Place, Koramangala, Bandra, and Jubilee Hills** form strong **food clusters** with consistently high ratings.  
-- City-level comparison shows how **market size and dining culture** affect restaurant growth on Zomato.
+### 📍 Market Distribution  
+- Metro cities dominate restaurant listings → strong urban demand  
+- Food hubs like Connaught Place & Koramangala show high density  
 
----
+### 🍜 Cuisine Trends  
+- North Indian, Chinese, and Fast Food dominate listings  
+- Premium cuisines (Italian, Continental) → higher ratings  
 
-## 2️⃣ Cuisine Trends  
-- The most listed cuisines are **North Indian, Chinese, Fast Food, Italian, and Continental**, showing high customer preference for familiar and quick meals.  
-- Cuisines like **Italian and Continental** often receive **higher average ratings**, indicating strong customer satisfaction.  
-- Many top cuisines also offer **online delivery**, showing alignment with customer expectations for quick-service food.
+### 💰 Pricing Patterns  
+- Majority restaurants fall under budget & mid-range  
+- Higher price range → better ratings & premium experience  
 
----
+### ⭐ Customer Behavior  
+- Avg rating: ~3.8–4.0  
+- Delivery restaurants → more votes & engagement  
 
-## 3️⃣ Cost & Price Range Analysis  
-- Average cost for two varies widely across cities — metro cities show **higher average cost**, while tier-2 cities remain more affordable.  
-- **Price Range 1 and 2** dominate the platform, meaning most Zomato restaurants are **budget or mid-range**.  
-- Higher price ranges (**3 & 4**) correlate with **better ratings and premium dining experiences**.  
-- The dataset highlights how **restaurant pricing aligns with city demographics and cuisine type**.
-
----
-
-## 4️⃣ Ratings & Reviews Insights  
-- The overall **average rating** across restaurants is fairly stable (around 3.8–4.0).  
-- Restaurants offering **online delivery** receive **more votes and slightly higher ratings**, showing that customers interact more with delivery-based outlets.  
-- Cuisines like **Continental, Italian, and Asian** tend to receive stronger ratings compared to typical fast food.  
-- High-rated restaurants are concentrated in major food hubs, confirming **strong competition and quality** in urban areas.
+### 🚚 Delivery Trends  
+- Delivery-enabled restaurants dominate the platform  
+- Mid-range pricing + delivery = highest demand segment  
 
 ---
 
-## 5️⃣ Delivery & Takeaway Analysis  
-- A significant portion of restaurants support **online delivery**, reflecting the growing demand for convenience.  
-- Delivery restaurants typically fall in **mid-range pricing**, which attracts a wider audience.  
-- Restaurants offering both **delivery and takeaway** dominate the platform, making it Zomato’s strongest operational segment.  
-- Delivery availability is strongly linked to **higher customer engagement (votes)** and **repeat usage**.
+## 🛠 Tools & Techniques  
+- Microsoft Excel  
+- Pivot Tables & Charts  
+- Slicers (interactive filters)  
+- Data Cleaning & Transformation  
+- Dashboard Design  
 
 ---
 
-## 6️⃣ Currency Analysis  
-- Most transactions and listings are in **INR**, showing Zomato’s dominant market presence in India.  
-- Other currencies like **AED, USD, TRY** appear in global entries but are fewer in comparison.  
-- Currency distribution highlights how **Zomato’s operations are expanding but still primarily India-focused**.
+## ⚙️ Workflow  
+1. Data Cleaning (nulls, formatting, duplicates)  
+2. Data Preparation (type conversion, feature creation)  
+3. Analysis using Pivot Tables  
+4. Dashboard creation with slicers & KPIs  
 
 ---
 
-# 📁 Project Workflow (How I Did It)
-
-### **1. Data Cleaning**
-- Removed blank values  
-- Handled text formatting (cost, rating fields)  
-- Standardized Yes/No fields  
-- Checked duplicates  
-
-### **2. Data Preparation**
-- Converted cost and numeric fields  
-- Created helper fields where required  
-- Ensured proper data types for Pivot Tables  
-
-### **3. Pivot Table Creation**
-- Separate pivot tables for:  
-  - City presence  
-  - Cuisine count  
-  - Price range  
-  - Online delivery  
-  - Ratings distribution  
-  - Cost by city  
-  - Locality insights  
-
-### **4. Dashboard Design**
-- Added KPIs (Cities, Users, Restaurants Count)  
-- Used Zomato color theme (**#E23744 Red**)  
-- Organized sections into clear blocks  
-- Added interactive slicers for City, Cuisine, Delivery  
-
-### **5. Final Presentation**
-- Arranged charts visually  
-- Added insight summaries  
-- Created a professional and clean dashboard layout  
+## 📁 Project Files  
+- Excel Dashboard (.xlsx)  
+- Dataset  
+- Dashboard Screenshot  
 
 ---
 
-# 📄 Files Included  
-- 📊 **Excel Dashboard (.xlsx)**  
-- 📝 **Project Report (PDF/Word)**  
-- 📁 **Images folder (screenshots)**  
-- 🗂 **Zomato dataset**  
-- 📘 **README.md**  
-
----
-
-# 🙋‍♂️ About the Author  
-**Rohan Nayak**  
-Data Analysis Enthusiast  
-Excel • Dashboards • Visualization  
-Turning data into insights.
+## 👤 Author  
+**Rakesh Chandra Behera**  
+Aspiring Data Analyst | Excel • SQL • Python • Data Visualization 
 
 ---
 
